@@ -25,6 +25,13 @@ namespace DataAccessLibrary
             return _Issuedb.LoadData<IssueModel, dynamic>(sql, new { });
         }
 
+        public Task<List<IssueModel>> GetvIssues()
+        {
+            string sql = "select * from dbo.Issues where is_approved = 1";
+
+            return _Issuedb.LoadData<IssueModel, dynamic>(sql, new { });
+        }
+
         public Task<List<IssueModel>> GetIssue(int id)
         {
             string sql = "select * from dbo.Issues where id = '" + id + "'";
@@ -37,6 +44,13 @@ namespace DataAccessLibrary
             string sql = "UPDATE dbo.Issues SET Heading = '" + Issue.Heading + "', Body = '" + Issue.Body + "', UpdateDate = @UpdateDate WHERE id = '" + id + "';";
 
             return _Issuedb.SaveData(sql, Issue);
+        }
+
+        public Task ApIssue(int id)
+        {
+            string sql = "UPDATE dbo.Issues SET is_approved = 1 where id =" + id;
+
+            return _Issuedb.LoadData<int, dynamic>(sql, new { });
         }
 
         public Task InsertIssue(IssueModel Issue)
