@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{50491A02-6BBD-42EA-AA8A-5AD7378A3E1D}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/AdminIssues.razor">
+    <Files>
+      <File FileName="appsettings.json" Line="11" Column="92" />
+      <File FileName="Pages/Register.razor" Line="87" Column="27" />
+      <File FileName="wwwroot/css/index.css" />
+      <File FileName="Pages/IndustryIndex.razor" Line="1" Column="1" />
+      <File FileName="Pages/AdminIssues.razor" Line="80" Column="9" />
+      <File FileName="Pages/ExpIndex.razor" Line="27" Column="1" />
+      <File FileName="Pages/Responses.razor" Line="20" Column="37" />
+      <File FileName="Pages/EditIssue.razor" Line="22" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Dapper1" expanded="True">
+            <Node name="Dapper1" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="EditIssue.razor" selected="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Dapper1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

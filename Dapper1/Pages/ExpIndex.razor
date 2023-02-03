@@ -94,7 +94,7 @@
     public List<IssueModel>? Issues;
     protected override async Task OnInitializedAsync()
     {
-        Issues = await _IssueDb.GetIssues();
+        Issues = await _IssueDb.GetvIssues();
     }
 
     int counter = 1;
